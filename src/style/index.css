@@ -150,3 +150,18 @@ body,
 #app {
   height: 100%;
 }
+.border {
+  -webkit-text-fill-color: transparent;
+  background-image: -webkit-linear-gradient(left, #129835, #9c9b7d 25%, #129835 50%, #F9E92B 75%, #289626);
+  background-size: 200%,100%;
+  -webkit-background-clip: text;
+  -webkit-animation: word 5s linear infinite ;
+}
+@keyframes word {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: -100% 0;
+  }
+}
